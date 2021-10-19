@@ -22,8 +22,10 @@ namespace Hackerrank_Algo_Problems
                     }
                 }
             }
-
-
+            
+            
+            //Debugging Solution
+            Console.WriteLine("Moving Zeroes To End Of An Array");
             for (int i = 0; i < arry.Length; i++)
             {
                 Console.WriteLine("Element "+ i + " : " + arry[i]);

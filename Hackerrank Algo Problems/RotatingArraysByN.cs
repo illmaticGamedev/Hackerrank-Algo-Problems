@@ -21,7 +21,9 @@ namespace Hackerrank_Algo_Problems
                     newNums[i+k] = nums[i];
                 }
             }
-
+            
+            //Debugging Solution
+            Console.WriteLine("Rotating Arrays By N");
             for (int i = 0; i < newNums.Length; i++)
             {
                Console.WriteLine(i + " : " + newNums[i]);
