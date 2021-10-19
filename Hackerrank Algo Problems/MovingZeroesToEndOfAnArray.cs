@@ -1,11 +1,11 @@
 ﻿using System;
 namespace Hackerrank_Algo_Problems
 {
-    internal class MovingZeroes
+    internal  class MovingZeroesToEndOfAnArray
     {
         private static int[] arry = new[] {0,1,0,3,12};
         
-        public static void Main(string[] args)
+        public static void Execute()
         {
             for (int i = 0; i < arry.Length; i++)
             {
@@ -26,8 +26,9 @@ namespace Hackerrank_Algo_Problems
 
             for (int i = 0; i < arry.Length; i++)
             {
-                Console.WriteLine(i + " : " + arry[i]);
+                Console.WriteLine("Element "+ i + " : " + arry[i]);
             }
+            
         }
     }
 }
