@@ -21,12 +21,13 @@ namespace Hackerrank_Algo_Problems
                     newNums[i+k] = nums[i];
                 }
             }
-            
+
+            Array.Copy(newNums,nums,newNums.Length);
             //Debugging Solution
             Console.WriteLine("Rotating Arrays By N");
-            for (int i = 0; i < newNums.Length; i++)
+            for (int i = 0; i < nums.Length; i++)
             {
-               Console.WriteLine(i + " : " + newNums[i]);
+               Console.WriteLine(i + " : " + nums[i]);
             }
         }
     }

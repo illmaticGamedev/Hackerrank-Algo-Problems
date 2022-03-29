@@ -38,10 +38,15 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="AngryProcessor.cs" />
+        <Compile Include="DesignPDFViewerHighlight.cs" />
+        <Compile Include="ElectronicShop.cs" />
         <Compile Include="ExecuteAll.cs" />
+        <Compile Include="HurdleRace.cs" />
         <Compile Include="MovingZeroesToEndOfAnArray.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
         <Compile Include="RotatingArraysByN.cs" />
+        <Compile Include="UtopianTree.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
